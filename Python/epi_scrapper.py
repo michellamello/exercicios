@@ -17,7 +17,7 @@ def menuPrincipal():
     print('|' + 'Scrapper EPI'.center(78) + '|')
     print(divisor + '\n')
 
-    if horaAtual.hour < 12 :
+    if horaAtual.hour < 12 and horaAtual.hour >= 0:
         print('Bom dia!')
     elif horaAtual.hour < 18 :
         print('Boa tarde!')
